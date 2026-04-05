@@ -1,0 +1,64 @@
+# Browser session data - 包含登录状态，绝对不要提交！
+# 浏览器会话数据 - 包含登录状态，绝对不要提交！
+browser_session/
+
+# Python
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output files (exclude project documentation)
+# 输出文件（排除项目文档）
+# 注意：README.md 和 GITHUB_DESCRIPTION.md 需要提交，所以不在此排除
+# Note: README.md and GITHUB_DESCRIPTION.md need to be committed, so not excluded here
+
+# OS
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+# 日志文件
+*.log
